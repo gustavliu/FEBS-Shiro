@@ -1,0 +1,199 @@
+﻿<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+    <head th:replace="gustav/head::head">
+        <title>Home</title>
+    </head>
+    <body>
+        <div th:replace="gustav/nav::nav"></div>
+        <!-- Slider Area Start -->
+        <section class="slider-area">
+            <div id="home-one-crousel" class="carousel slide">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12">
+                                    <div class="slider-content text-left">
+                                        <h2 class="first-animation">廉泉之源</h2>
+                                        <h3 class="second-animation">清远市<br>廉政教育基地</h3>
+                                        <a th:href="@{reserve}" class="bordered-button fourth-animation">预约参观<i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-overlay"></div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12">
+                                    <div class="slider-content text-left">
+                                        <h2 class="first-animation">廉泉之源</h2>
+                                        <h3 class="second-animation">清远市<br>廉政教育基地</h3>
+                                        <a href="#" class="bordered-button fourth-animation">预约参观<i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-overlay"></div>
+                    </div>
+                    <div class="item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12">
+                                    <div class="slider-content text-left">
+                                        <h2 class="first-animation">廉泉之源</h2>
+                                        <h3 class="second-animation">清远市<br>廉政教育基地</h3>
+                                        <a href="#" class="bordered-button fourth-animation">预约参观<i class="fa fa-long-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-overlay"></div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#home-one-crousel" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="right carousel-control" href="#home-one-crousel" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </section>
+        <!-- Slider Area End -->
+        <div class="tlinks">Collect from <a th:href="@{http://www.cssmoban.com/}" >手机网站模板</a></div>
+
+        <!-- Donate Area Start -->
+        <section class="donate-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <div class="donate-content">
+                            <h2 class="section-title">
+                                基地 <span>概况</span>
+                            </h2>
+                            <p class="section-subtitle">
+                                清远市廉政教育基地位于。。。 <br>labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Donate Area End -->
+
+        <!-- Champaign Area Start -->
+        <section class="champaign-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 no-padding col-xs-12 col-sm-6">
+                        <div class="video-container">
+                            <a href="" id="videoPlay"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 no-padding col-xs-12 col-sm-6">
+                        <div class="counter-area">
+                            <h4>UPCOMING CAMPAIGN</h4>
+                            <h2 class="section-title">Make <span>Difference</span></h2>
+                            <p class="section-subtitle">Herbert Hoover  Conference House <br>San Diego, CA</p>
+                            <div id="clock"></div>
+                            <a href="#" class="filled-button">View Campaign</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Champaign Area End -->
+
+        <!-- Volunteer Area Start -->
+        <section class="volunteer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <div class="volunteer-content">
+                            <div class="volunteer-icon">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <div class="clearfix"></div>
+                            </div>
+                            <h2 class="section-title"><span>Become a Volunteer!</span></h2>
+                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                eiusmod tempor incididunt ut <br>labore et dolore magna aliqua.</p>
+                            <a class="filled-button" href="#">Sign up to Volunteer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Volunteer Area End -->
+
+        <!-- Tweet Area Start -->
+        <section class="tweet-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <div class="tweet-content">
+                            <i class="fa fa-twitter"></i>
+                            <p>Check out 'Politist - Personal Political Template' on #EnvatoMarket</p>
+                            <span>9min ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tweet Area End -->
+
+        <!-- Subscribe Area Start -->
+        <section class="subscribe-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <div class="subscribe-content">
+                            <h3>Newsletters</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br>labore et dolore magna aliqua.</p>
+                        </div>
+                        <form action="#" method="post" class="subscribe-form" id="subscribe-form">
+                            <input type="email" name="email" placeholder="Enter your email id">
+                            <button type="submit">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe Area End -->
+
+        <!-- Footer Area Start -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-1 col-xs-12 text-center">
+                        <p class="copy-right">&copy; 2016 politist </p>
+                    </div>
+                    <div class="col-md-9 col-xs-12 text-left">
+                        <ul class="footer-menu">
+                            <li class="wow fadeInLeft"><a href="#">Terms of Service</a></li>
+                            <li class="wow fadeInLeft"><a href="#">Privacy Policy</a></li>
+                            <li class="wow fadeInLeft"><a href="#">Contact</a></li>
+                            <li class="wow fadeInLeft"><a href="#">Speeches</a></li>
+                            <li class="wow fadeInLeft"><a href="#">Biography</a></li>
+                            <li class="wow fadeInLeft"><a href="#">Donation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Area End -->
+        <!-- Include All JavaScript -->
+        <script th:src="@{js/jquery.min.js}"></script>
+        <script th:src="@{js/jquery.appear.js}"></script>
+        <script th:src="@{js/bootstrap.min.js}"></script>
+        <script th:src="@{js/owl.carousel.min.js}"></script>
+        <script th:src="@{js/jquery.magnific-popup.min.js}"></script>
+        <script th:src="@{js/jquery.countdown.min.js}"></script>
+        <script th:src="@{js/mixItUp.js}"></script>
+        <script th:src="@{js/main.js}"></script>
+    </body>
+</html>
+

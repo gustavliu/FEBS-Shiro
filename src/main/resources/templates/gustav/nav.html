@@ -1,0 +1,46 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Header Area Start -->
+<header th:fragment="nav" class="header-area">
+    <ul class="social-icon pull-left">
+        <!--<div class="pull-left logo-area">-->
+        <!--<a href="index.html"><img src="images/home1/logo.png" alt="Logo" width="76px"; height="50px" style="margin-top: 8px"></a>-->
+        <!--</div>-->
+    </ul>
+    <nav class="main-menu hidden-xs hidden-sm">
+        <ul class="menu-left pull-left">
+            <li class="menu-has-children">
+                <a href="index">首页</a>
+            </li>
+            <li><a href="biography.html">基地概况</a></li>
+            <li><a href="news.html">廉政资讯</a></li>
+            <li><a href="event.html">基地动态</a></li>
+            <li><a href="photo.html">廉政文化</a></li>
+            <li><a href="volunteer.html">网上展厅</a></li>
+            <li><a th:href="@{reserve}">预约参观</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+    </nav>
+    <ul class="pull-right search-cart">
+        <li><a href="#" id="search-toggle"><i class="fa fa-search"></i></a></li>
+        <li class="user-profile-menu">
+            <a href="profile.html"><i class="fa fa-user"></i></a>
+            <ul>
+                <li><a href="#">My Campaign</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Sign Out</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</header>
+<!-- Header Area End -->
+
+</body>
+</html>
